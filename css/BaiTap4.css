@@ -1,0 +1,38 @@
+form{
+    border: 7px solid rgb(224, 213, 213);
+    width: 600px;
+    margin:auto;
+    padding: 15px;
+}
+p {
+    display: flex;
+   justify-content:stretch;
+}
+.contact, .basic, .optional {
+    margin-bottom: 20px;
+}
+.check-group, .gender-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.read {
+    display: flex;
+    justify-content: flex-start;
+}
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.input-group input {
+    align-items:normal;
+}
+
+
+.button1 {
+    float: right;
+    clear: right;
+    overflow: auto;
+}

@@ -1,0 +1,30 @@
+
+body{
+    font-family: Arial, sans-serif;
+}
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.course {
+    width: 30%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background-color: rgb(243, 240, 240);
+}
+.text {
+    padding:10px;
+}
+img {
+    width: 500px;
+    height: 200px;
+}
+i {
+    font-weight: bold;
+    color: red;
+}
+h3 {
+    text-transform: uppercase;
+}
+        
