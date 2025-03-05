@@ -1,38 +1,76 @@
-form{
-    border: 7px solid rgb(224, 213, 213);
-    width: 600px;
-    margin:auto;
-    padding: 15px;
-}
-p {
-    display: flex;
-   justify-content:stretch;
-}
-.contact, .basic, .optional {
-    margin-bottom: 20px;
-}
-.check-group, .gender-group {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-.read {
-    display: flex;
-    justify-content: flex-start;
-}
-.input-group {
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+  .container {
+    width: 700px;
+    height: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1rem solid rgb(242, 240, 240);
+    border-top: 1.2rem solid rgb(242, 240, 240);
+    border-bottom: 2rem solid rgb(242, 240, 240);
+  }
+  h3 {
+    border-bottom: 2px solid #797676;
+  }
+  .input_in4 label {
+    width: 160px;
+    float: left;
+    font-weight: bold;
+  }
+  .input_in4 input {
+    width: 60%;
+    height: 20px;
+    margin-bottom: 5px;
+  }
+  li {
+    list-style: none;
+  }
+  b {
+    width: 110px;
+    float: left;
+  }
+  select {
+    margin-bottom: 5px;
+    border-radius: 5px;
+    height: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  textarea {
+    width: 225%;
+    height: 100px;
+  }
+  .input_in4_active label {
+    width: 160px;
+    float: left;
+    font-weight: bold;
+  }
+  .input_in4_pre b{
+    width: 160px;
+  }
+  #gravy{
+    margin-left: 164px;
+  }
+  .input_in4_human label{
+    width: 158px;
+    float: left;
+    font-weight: bold;
+  }
+  .input_in4_human input{
+    width: 130%;
+    height: 20px;
+  } 
+  .bottom{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-}
-.input-group input {
-    align-items:normal;
-}
-
-
-.button1 {
-    float: right;
-    clear: right;
-    overflow: auto;
-}
+  }
+  #emp,#lname{
+    border: none;
+  }
+  button{
+    background: #000;
+    color:#ffffff;
+  }
